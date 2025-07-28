@@ -1,4 +1,3 @@
 print("hello world jhon")
-print("WSG BROOO")
+print("salut")
 print("hiiiii")
-
