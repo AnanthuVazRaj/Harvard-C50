@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movable Modal</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <button class="open-modal-btn" onclick="openModal()">Open Modal</button>
+
+    <div class="modal-overlay" id="modalOverlay">mmm</div>
+    <div class="modal" id="myModal">
+        <div class="modal-header" id="modalHeader">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>Modal Title</h3>
+        </div>
+        <div class="modal-content">
+            <input type = "text" placeholder="name">
+            <input type = "submit" placeholder="submit">
+            <p>This is a movable modal window. Drag the header to move it.</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.min.js" integrity="sha512-8ExARjWWkIllMlNzVg7JKq9RKWPlJABQUNq6YvAjE/HobctjH/NA+bSiDMDvouBVjp4Wwnf1VP1OEv7Zgjtuxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="script.js"></script>
+     <script defer src="script2.js"></script>
+</head>
+
+<body>
+    <main>
+        <div id = "active_People">
+            <h1 class="peopleHeading">THE PEOPLE</h1>
+           
+        </div>
+        <div class = "main_chat">
+             <form class="form-join">
+            <input type="text" id="name" maxlength="8" placeholder="Your name" size="25" required>
+            <button id="join" type="submit">Confirm</button>
+            </form>
+
+        <ul class="chat-display"></ul>
+        <form class="form-msg">
+            <input type="text" id="message" placeholder="Your message" required>
+            <button type="submit">Send</button>
+        </form>
+        </div>
+        <!-- loookie 
+          <button class="open-modal-btn" onclick="openModal()">Open Modal</button>
+-->
+            
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="myModal">
+        <div class="modal-header" id="modalHeader">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>TEXT BOX</h3>
+        </div>
+        <div class="modal-content">
+            <input type = "text" placeholder=" text send" id = "TextBoox">
+            <button  id = "textSend"> SUBMIT</button>
+            
+
+            <p>This is a movable modal window. Drag the header to move it.</p>
+        </div>
+
+    </main>
+</body>
+
+</html>
