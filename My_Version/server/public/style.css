@@ -124,8 +124,8 @@ main {
 }
 
 
-/* lookie*/
-      /* Modal container */
+/* lo */
+      
         .modal {
             display: none;
             position: fixed;
@@ -135,12 +135,12 @@ main {
             background-color: white;
             border: 1px solid #ccc;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-           /* z-index: 1000;*/
+            z-index: 1000;
             width: 300px;
             max-width: 90%;
         }
 
-        /* Modal header */
+        
         .modal-header {
             background-color: #f1f1f1;
             padding: 10px;
@@ -149,12 +149,12 @@ main {
             border-bottom: 1px solid #ccc;
         }
 
-        /* Modal content */
+      
         .modal-content {
             padding: 20px;
         }
 
-        /* Close button */
+        
         .close-btn {
             float: right;
             cursor: pointer;
@@ -162,7 +162,7 @@ main {
             color: #333;
         }
 
-        /* Overlay */
+        
         .modal-overlay {
             display: none;
             position: fixed;
@@ -174,7 +174,7 @@ main {
             
         }
 
-        /* Button to open modal */
+        
         .open-modal-btn {
             padding: 10px 20px;
             font-size: 16px;
@@ -184,3 +184,5 @@ main {
             border: none;
             border-radius: 4px;
         }
+
+ 
